@@ -1,0 +1,220 @@
+/* GOOGLE FONTS___________ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Montserrat', sans-serif; */
+html {
+    font-size: 10px;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e5e7;
+}
+
+/* -----------------------------------------
+            SECTION ONE CSS
+---------------------------------------- */
+
+/* NAVBAR STYLING_____________ */
+.navbar {
+    background-color: #fff;
+    border-bottom: 1.5px solid #e3e8f0;
+    padding: 30px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #343e5c;
+    margin: 0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    font-weight: 800;
+    color: #343e5c;
+}
+
+.buttons-area a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.buttons-area a i {
+    margin-right: 5px;
+}
+
+.buttons-area a span {
+    padding: 10px;
+    padding-right: 15px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #e3e8f0;
+}
+
+.buttons-area a.btn:nth-child(1) {
+    padding: 0;
+}
+
+.buttons-area a.btn:nth-child(2) {
+    border: 2px solid #e3e8f0;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+/* BOOTSTRAP CAROUSEL STYING_____________ */
+.carousel {
+    background: url(../img/header/banner-1.png);
+    height: 500px;
+}
+
+.header-half-width {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-half-width h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.header-half-width p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.header-half-width a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 60px;
+    background-color: #2754eb;
+    display: inline;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.carousel-control-next i,
+.carousel-control-prev i {
+    padding: 0px 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-prev i {
+    margin-left: 30px;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+
+.carousel-control-next i {
+    margin-right: 30px;
+}
+
+/* -----------------------------------------
+            SECTION TWO CSS
+---------------------------------------- */
+
+#section-2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#section-2 .navbar {
+    height: 60px;
+    border-radius: 7px;
+}
+
+#section-2 .navbar-nav {
+    width: 100%;
+}
+
+#section-2 .navbar .nav-link {
+    font-size: 13px;
+}
+
+#section-2 .navbar .form-control {
+    width: 150px;
+    border-radius: 50px;
+    background-color: #f0f2f7;
+    border-color: #e3e8f0;
+    margin-left: 1px;
+    height: 35px;
+}
+
+#section-2 .navbar .form-control::placeholder {
+    color: #b9bfd3;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#section-2 .navbar .form-control[value="10"] {
+    color: #343e5c;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#section-2 .navbar .form-control[value="1000"] {
+    color: #343e5c;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#section-2 .navbar .price-form {
+    width: 100px;
+}
+
+.nav-sub-section {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    width: auto;
+}
+
+.form-check-input:checked {
+    background-color: #00e2aa;
+    border-color: #00e2aa;
+}
+
+.form-check-input {
+    margin-right: 10px;
+    border-radius: 50px;
+    height: 1.4em;
+    width: 1.4em;
+}
+
+.form-check-label {
+    /* margin-top: 5px; */
+    color: #343e5c;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.form-check-input[type="checkbox"] {
+    border-radius: 50px;
+}
